@@ -43,66 +43,66 @@ bronxButton.addEventListener('click', async () =>{
         console.log(error)
     }   
 });
-// brooklynButton.addEventListener('click', async () =>{   
-//     let valueInput = userInput.value;
-//     if(valueInput ==''){
-//            valueInput= 10
-//     }
-//     try{
-//         let response = await axios.get(`${BASE_URL}${brooklyn}&$limit=${valueInput}`);
-//         let result = response.data
-//         console.log(result)
-//         results(result)
-//     }
-//     catch (error) {
-//         console.log(error)
-//     }   
-// });
-// manhattanButton.addEventListener('click', async () =>{ 
-//     let valueInput = userInput.value;
-//     if(valueInput ==''){
-//            valueInput= 10
-//     }
-//     try{
-//         let response = await axios.get(`${BASE_URL}${manhattan}&$limit=${valueInput}`); 
-//         let result = response.data
-//         console.log(result)
-//         results(result)
-//     }
-//     catch (error) {
-//         console.log(error)
-//     }   
-// });
-// statenButton.addEventListener('click', async () =>{
-//     let valueInput = userInput.value;
-//     if(valueInput ==''){
-//            valueInput= 10
-//     }
-//     try{
-//         let response = await axios.get(`${BASE_URL}${staten}&$limit=${valueInput}`);
+brooklynButton.addEventListener('click', async () =>{   
+    let valueInput = userInput.value;
+    if(valueInput ==''){
+           valueInput= 10
+    }
+    try{
+        let response = await axios.get(`${BASE_URL}${brooklyn}&$limit=${valueInput}`);
+        let result = response.data
+        console.log(result)
+        results(result)
+    }
+    catch (error) {
+        console.log(error)
+    }   
+});
+manhattanButton.addEventListener('click', async () =>{ 
+    let valueInput = userInput.value;
+    if(valueInput ==''){
+           valueInput= 10
+    }
+    try{
+        let response = await axios.get(`${BASE_URL}${manhattan}&$limit=${valueInput}`); 
+        let result = response.data
+        console.log(result)
+        results(result)
+    }
+    catch (error) {
+        console.log(error)
+    }   
+});
+statenButton.addEventListener('click', async () =>{
+    let valueInput = userInput.value;
+    if(valueInput ==''){
+           valueInput= 10
+    }
+    try{
+        let response = await axios.get(`${BASE_URL}${staten}&$limit=${valueInput}`);
         
-//         let result = response.data
-//         console.log(result)
-//         results(result)
-//     }
-//     catch (error) {
-//         console.log(error)
-//     }   
+        let result = response.data
+        console.log(result)
+        results(result)
+    }
+    catch (error) {
+        console.log(error)
+    }   
 
-// });
-// queensButton.addEventListener('click', async () =>{
-//     let valueInput = userInput.value;
-//     if(valueInput ==''){
-//            valueInput= 10
-//     }
-//     try{
-//         let response = await axios.get(`${BASE_URL}${queens}&$limit=${valueInput}`);
+});
+queensButton.addEventListener('click', async () =>{
+    let valueInput = userInput.value;
+    if(valueInput ==''){
+           valueInput= 10
+    }
+    try{
+        let response = await axios.get(`${BASE_URL}${queens}&$limit=${valueInput}`);
         
-//         let result = response.data
-//         console.log(result)
-//         results(result)
-//     }
-//     catch (error) {
-//         console.log(error)
-//     }   
-// });
+        let result = response.data
+        console.log(result)
+        results(result)
+    }
+    catch (error) {
+        console.log(error)
+    }   
+});
